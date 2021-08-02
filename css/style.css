@@ -1,0 +1,139 @@
+* {
+    padding: 0px;
+    margin : 0px;
+}
+
+body {
+    background-color: #53B8BB;
+    display         : flex;
+    justify-content : center;
+    align-items     : center;
+    height          : 100vh;
+    font-family     : 'Roboto Mono', monospace;
+    flex-direction: column;
+
+}
+
+.container {
+    width: 330.462px;
+    display: flex;
+}
+#i_am{
+    color: #F3F2C9
+}
+
+li {
+    height: 42.400px;
+    color: #003638;
+    list-style: none;
+}
+.job_container{
+    
+    overflow: hidden;
+    height: 42px;
+}
+h1{
+    display: inline-block;
+    font-size: 32px;
+}
+
+.hlo{
+    font-size: 18px;
+    color: #F3F2C9;
+    width: 330.462px;
+}
+
+ul{
+    
+    position: relative;
+    animation-name: up_down;
+    animation-duration: 16s;
+    animation-iteration-count: infinite;
+    animation-timing-function: steps(4);
+}
+@keyframes up_down {
+    0%{
+        bottom: 0;
+    }
+    100%{
+        bottom: 169.600px;
+    }
+}
+h1{
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.soumya{
+    border-right: #003638 solid 2px;
+    animation-name: soumya;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: steps(7);
+}
+.developer{
+    border-right: #003638 solid 2px;
+    animation-name: developer;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: steps(12);
+}
+.designer{
+    border-right: #003638 solid 2px;
+    animation-name: designer;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: steps(11);
+}
+.gamer{
+    border-right: #003638 solid 2px;
+    animation-name: gamer;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: steps(8);
+}
+
+@keyframes soumya {
+    0%{
+        width: 0px;
+    }
+    50%{
+        width: 134.425px;
+    }
+    100%{
+        width: 0px;
+    }
+}
+@keyframes developer {
+    0%{
+        width: 0px;
+    }
+    50%{
+        width: 230.438px;
+    }
+    100%{
+        width: 0px;
+    }
+}
+@keyframes designer {
+    0%{
+        width: 0px;
+    }
+    50%{
+        width: 211.238px;
+    }
+    100%{
+        width: 0px;
+    }
+}
+@keyframes gamer {
+    0%{
+        width: 0px;
+    }
+    50%{
+        width: 153.625px;
+    }
+    100%{
+        width: 0px;
+    }
+}
